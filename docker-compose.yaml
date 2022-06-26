@@ -1,0 +1,17 @@
+services:
+  selenium:
+    image: selenium/standalone-chrome:103.0
+    networks:
+      - sasha-net
+  
+  service:
+    image: tolisso/sasha:0.3
+    networks:
+      - sasha-net
+    ports:
+      - ${SASHA-PORT:-2007}:8080
+    expose:
+      - ${SAHSA-PORT:-2007}
+
+networks:
+  sasha-net: {}
