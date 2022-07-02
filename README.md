@@ -1,5 +1,5 @@
 # tolisso-sasha
-Easy to install webpage screenshot service.
+Easy to install webpages screenshot service.
 
 # Install and Run
 * Install docker
