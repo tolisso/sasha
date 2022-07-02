@@ -9,9 +9,9 @@ services:
     networks:
       - sasha-net
     ports:
-      - ${SASHA-PORT:-2007}:8080
+      - ${SASHA_PORT:-2007}:8080
     expose:
-      - ${SAHSA-PORT:-2007}
+      - ${SASHA_PORT:-2007}
 
 networks:
   sasha-net: {}
