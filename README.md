@@ -3,8 +3,8 @@ Easy to install webpages screenshot service.
 
 # Install and Run
 * Install docker
-* download [docker-compose.yaml](https://github.com/tolisso/sasha/blob/master/docker-compose.yaml)
-* run `docker compose up` in directory with downloaded .yaml file
+* download [docker-compose.yaml](https://github.com/tolisso/sasha/blob/master/docker-compose.yaml) file
+* run `docker compose up` in directory with downloaded file
 
 # Usage
 Request example: http://localhost:2007/screenshot?width=1000&height=6000&timeout=0&url=https://docs.docker.com/engine/install/ubuntu/
