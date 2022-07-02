@@ -14,7 +14,7 @@ After launch, on your localhost:2007 will be deployed server. To get screenshot 
 Parameters are:
 - width
 - height
-- timeout - seconds between load of webpage and screenshot; may be fractional
+- timeout - seconds between load of webpage and screenshot, may be fractional
 - url - url of webpage to make screenshot
 
 # Stop Service
